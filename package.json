@@ -1,5 +1,5 @@
 {
-  "name": "flowgen",
+  "name": "elder-flowgen",
   "description": "Generate flowtype definition files from TypeScript",
   "typings": "index.d.ts",
   "version": "1.13.0",
@@ -48,7 +48,8 @@
     "eslint-plugin-jest": "^24.0.0",
     "eslint-plugin-prettier": "^3.1.4",
     "flow-bin": "^0.141.0",
-    "jest": "^26.4.2"
+    "jest": "^26.4.2",
+    "yalc": "^1.0.0-pre.53"
   },
   "files": [
     "lib",
