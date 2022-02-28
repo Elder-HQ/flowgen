@@ -104,7 +104,9 @@ export const interfaceType = <T>(
   }
 
   if (isType && isInexact) {
-    members.push("...\n");
+    // This is the syntax for explicit inexact types in more recent versions of Flow. The Flow version that we use
+    // do not understand it however.
+    // members.push("...\n");
   } else if (members.length > 0) {
     members.push("\n");
   }
