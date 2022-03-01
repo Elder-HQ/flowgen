@@ -16,6 +16,9 @@
     "type": "git",
     "url": "https://github.com/joarwilk/flowgen.git"
   },
+  "publishConfig": {
+    "registry": "https://nexus.elder.org/content/repositories/npm-internal/"
+  },
   "dependencies": {
     "@babel/code-frame": "^7.16.7",
     "@babel/highlight": "^7.16.7",
