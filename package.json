@@ -1,7 +1,7 @@
 {
-  "name": "elder-flowgen",
+  "name": "@elder/flowgen",
   "description": "Generate flowtype definition files from TypeScript",
-  "version": "1.16.2-elder-2",
+  "version": "1.16.2-elder-3",
   "bin": {
     "flowgen": "./lib/cli/index.js"
   },
